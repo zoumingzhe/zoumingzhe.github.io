@@ -4,8 +4,34 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/01/15/%E5%8D%87%E7%BA%A7%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2018-01-16T18:02:06.782Z</lastmod>
+    <data>
+        <display>
+        <title>升级日志</title>
+        <pubTime>2018-01-14T16:32:05.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Next</tag>
+         
+        <tag>GitHub Pages</tag>
+         
+        <tag>更新</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/01/16/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
-    <lastmod>2018-01-15T16:13:04.281Z</lastmod>
+    <lastmod>2018-01-16T17:48:02.832Z</lastmod>
     <data>
         <display>
         <title>开源许可协议的区别</title>
@@ -27,22 +53,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/01/15/%E5%8D%87%E7%BA%A7%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2018-01-15T15:27:52.259Z</lastmod>
+    <loc>http://yoursite.com/2018/01/11/hello-world/</loc>
+    <lastmod>2018-01-16T17:46:21.415Z</lastmod>
     <data>
         <display>
-        <title>升级日志</title>
-        <pubTime>2018-01-14T16:32:05.000Z</pubTime>
+        <title>Hello World</title>
+        <pubTime>2018-01-11T14:23:12.000Z</pubTime>
         
         <tag>Hexo</tag>
-         
-        <tag>GitHub Pages</tag>
-         
-        <tag>维护</tag>
-         
-        <tag>升级</tag>
-         
-        <tag>日志</tag>
          
          
            
@@ -54,25 +72,6 @@
     </url>
 
     
-  <url>
-    <loc>http://yoursite.com/2018/01/11/hello-world/</loc>
-    <lastmod>2018-01-14T18:45:34.299Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-01-11T14:23:12.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Hello World</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
+    
+    
 </urlset>
