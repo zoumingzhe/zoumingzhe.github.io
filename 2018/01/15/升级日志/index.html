@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="邹明哲">
 <meta property="og:description" content="GitHub主页的维护升级日志。通过GitHub Pages + Hexo，搭建属于自己的博客主页。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-16T18:16:45.437Z">
+<meta property="og:updated_time" content="2018-01-16T18:33:14.859Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="升级日志">
 <meta name="twitter:description" content="GitHub主页的维护升级日志。通过GitHub Pages + Hexo，搭建属于自己的博客主页。">
@@ -410,6 +410,7 @@
 <li><a href="https://github.com/zhuzhuyule/HexoEditor" target="_blank" rel="noopener">仓库HexoEditor</a></li>
 <li><a href="https://hexo.io" target="_blank" rel="noopener">官方Hexo</a></li>
 <li><a href="http://www.jiathis.com/" target="_blank" rel="noopener">官方JiaThis</a></li>
+<li><a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">官方fontawesome</a></li>
 </ul>
 <h2 id="建站参考"><a href="#建站参考" class="headerlink" title="建站参考"></a>建站参考</h2><ul>
 <li><a href="https://www.cnblogs.com/visugar/p/6821777.html" target="_blank" rel="noopener">hexo从零开始到搭建完整</a></li>
@@ -433,6 +434,7 @@
 <li>修复本地访问失败（4000端口占用）</li>
 <li>增加本地可视化编辑hexo-admin</li>
 <li>增加搜索功能</li>
+<li>增加社交展示</li>
 <li>添加“关于about”</li>
 <li>添加“标签tags”</li>
 <li>添加“分类categories”</li>
@@ -560,21 +562,39 @@
 
     <div class="post-spread">
       
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-	<span class="jiathis_txt">分享到：</span>
-	<a class="jiathis_button_weixin">微信</a>	
-	<a class="jiathis_button_cqq">QQ好友</a>
-	<a class="jiathis_button_tsina">新浪微博</a>
-	<a class="jiathis_button_douban">豆瓣</a>
-	<a href="http://www.jiathis.com/share?uid=2155124" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
-	<a class="jiathis_counter_style"></a>
+        <div class="bdsharebuttonbox">
+	<a href="#" class="bds_more" data-cmd="more">分享到：</a>
+	<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
+	<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友">QQ好友</a>
+	<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a>
+	<a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin">linkedin</a>
+	<a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook">Facebook</a>
+	<a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter">Twitter</a>
 </div>
-<script type="text/javascript">
-var jiathis_config = {data_track_clickback:'true'};
+<script>
+	window._bd_share_config = {
+		"common": {
+			"bdSnsKey":{},
+			"bdText":"",
+			"bdMini":"2",
+			"bdMiniList":["copy","mshare","qzone","tsina","bdysc","weixin","renren","tqq","bdxc","kaixin001","tqf","tieba","douban","bdhome","sqq","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","fbook","twi","linkedin","h163","evernotecn","print"],
+			"bdPic":"","bdStyle":"1","bdSize":"32"
+			},
+			"share": {
+				"bdSize":16
+			},
+			"image":{
+				"viewList":["weixin","sqq","tsina","linkedin","fbook","twi"],
+				"viewText":"分享到：",
+				"viewSize":"32"
+			},
+			"selectShare":{
+				"bdContainerClass":null,
+				"bdSelectMiniList":["weixin","sqq","tsina","linkedin","fbook","twi"]}
+			};
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
 </script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2155124" charset="utf-8"></script>
-<!-- JiaThis Button END -->
+
       
     </div>
   </div>
@@ -676,7 +696,7 @@ var jiathis_config = {data_track_clickback:'true'};
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="https://weibo.com/u/2767220587" target="_blank" title="微博">
+                    <a href="http://weibo.com/juiceasy" target="_blank" title="微博">
                       
                         <i class="fa fa-fw fa-weibo"></i>微博</a>
                   </span>
