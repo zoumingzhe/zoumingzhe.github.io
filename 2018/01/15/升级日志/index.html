@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="邹明哲">
 <meta property="og:description" content="GitHub主页的维护升级日志。通过GitHub Pages + Hexo，搭建属于自己的博客主页。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-17T18:50:41.591Z">
+<meta property="og:updated_time" content="2018-01-17T20:10:34.479Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="升级日志">
 <meta name="twitter:description" content="GitHub主页的维护升级日志。通过GitHub Pages + Hexo，搭建属于自己的博客主页。">
@@ -428,6 +428,7 @@
 <li>验证百度SEO</li>
 <li>验证百度https</li>
 <li>增加baidusitemap</li>
+<li>开放baidu_push</li>
 </ul>
 <h4 id="2018-01-17"><a href="#2018-01-17" class="headerlink" title="2018-01-17"></a>2018-01-17</h4><ul>
 <li>修复本地访问失败（4000端口占用）</li>
@@ -1246,6 +1247,21 @@ var jiathis_config = {data_track_clickback:'true'};
   
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
   
