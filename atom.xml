@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>邹明哲</title>
+  
+  <subtitle>求知若渴，大智若愚。 Stay hungry. Stay foolish.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-01-16T17:48:02.832Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>邹明哲 Zou Mingzhe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开源许可协议的区别</title>
+    <link href="http://yoursite.com/2018/01/16/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>http://yoursite.com/2018/01/16/开源许可协议的区别/</id>
+    <published>2018-01-15T16:07:40.000Z</published>
+    <updated>2018-01-16T17:48:02.832Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="http://blog.csdn.net/testcs_dn/article/details/38496107" target="_blank" rel="noopener">开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      介绍不同开源许可协议之间的区别。
+    
+    </summary>
+    
+    
+      <category term="开源" scheme="http://yoursite.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="许可协议" scheme="http://yoursite.com/tags/%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE/"/>
+    
+      <category term="GPL" scheme="http://yoursite.com/tags/GPL/"/>
+    
+      <category term="BSD" scheme="http://yoursite.com/tags/BSD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>升级日志</title>
+    <link href="http://yoursite.com/2018/01/15/%E5%8D%87%E7%BA%A7%E6%97%A5%E5%BF%97/"/>
+    <id>http://yoursite.com/2018/01/15/升级日志/</id>
+    <published>2018-01-14T16:32:05.000Z</published>
+    <updated>2018-01-17T16:50:44.006Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过GitHub Pages + Hexo，搭建属于自己的博客主页，这篇日志用来记录博客主页的技术一步步成长壮大。<br>Hexo是一款基于Node.js的静态博客框架，本站点使用的是next主题，该主题比较简约，更多的主题可以通过<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>获取。</p><h2 id="传送门"><a href="#传送门" class="headerlink" title="传送门"></a>传送门</h2><ul><li><a href="https://zoumingzhe.github.io" target="_blank" rel="noopener">邹明哲 个人主页</a></li><li><a href="https://github.com/zoumingzhe" target="_blank" rel="noopener">邹明哲 GitHub主页</a></li><li><a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">仓库hexo</a></li><li><a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="noopener">仓库hexo-admin</a></li><li><a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">仓库hexo-theme-next</a></li><li><a href="https://github.com/zhuzhuyule/HexoEditor" target="_blank" rel="noopener">仓库HexoEditor</a></li><li><a href="https://hexo.io" target="_blank" rel="noopener">官方Hexo</a></li><li><a href="http://www.jiathis.com/" target="_blank" rel="noopener">官方JiaThis</a></li><li><a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">官方fontawesome</a></li></ul><h2 id="建站参考"><a href="#建站参考" class="headerlink" title="建站参考"></a>建站参考</h2><ul><li><a href="https://www.cnblogs.com/visugar/p/6821777.html" target="_blank" rel="noopener">hexo从零开始到搭建完整</a></li><li><a href="http://blog.csdn.net/u010278882/article/details/50749354" target="_blank" rel="noopener">hexo初识</a></li><li><a href="http://qjzhixing.com/2015/08/24/" target="_blank" rel="noopener">使用Hexo搭建博客（一），一点想法</a></li><li><a href="http://qjzhixing.com/2015/08/26/" target="_blank" rel="noopener">使用Hexo搭建博客（二），搭建博客的过程</a></li><li><a href="http://qjzhixing.com/2015/08/27/" target="_blank" rel="noopener">使用Hexo搭建博客（三），博客配置、主题和写作</a></li><li><a href="http://qjzhixing.com/2015/08/28/" target="_blank" rel="noopener">使用Hexo搭建博客（四），博客的部件和插件</a></li><li><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">hexo的next主题个性化教程:打造炫酷网站</a></li><li><a href="https://www.jianshu.com/p/8e28a76cb7e2" target="_blank" rel="noopener">github+hexo博客的主题安装及优化</a></li><li><a href="http://blog.csdn.net/wuseyukui/article/details/68059953" target="_blank" rel="noopener">搭建Hexo博客（Next主题）中踩过的坑</a></li><li><a href="http://yeshaoting.cn/article/hexo/hexo%E4%BD%BF%E7%94%A8%E8%BF%9B%E9%98%B6/" target="_blank" rel="noopener">hexo使用进阶</a></li><li><a href="http://www.cnblogs.com/mrwuzs/p/7954438.html" target="_blank" rel="noopener">hexo+next主题目录解析</a></li><li><a href="https://www.cnblogs.com/syd192/p/6074323.html" target="_blank" rel="noopener">Hexo的Next主题配置</a></li><li><a href="http://blog.csdn.net/qq_23435721/article/details/50938828" target="_blank" rel="noopener">使用GitHub Pages + Hexo 快速搭建个性化博客(四)-博客菜单和侧边栏优化</a></li></ul><h2 id="问题集"><a href="#问题集" class="headerlink" title="问题集"></a>问题集</h2><ul><li><a href="https://segmentfault.com/q/1010000003870970" target="_blank" rel="noopener">使用localhost:4000访问本地blog一直无响应</a></li></ul><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><h4 id="2018-01-18"><a href="#2018-01-18" class="headerlink" title="2018-01-18"></a>2018-01-18</h4><ul><li>验证了百度站长</li><li>更新分享插件到baidushare</li></ul><h4 id="2018-01-17"><a href="#2018-01-17" class="headerlink" title="2018-01-17"></a>2018-01-17</h4><ul><li>修复本地访问失败（4000端口占用）</li><li>增加本地可视化编辑hexo-admin</li><li>增加搜索功能</li><li>增加社交展示</li><li>添加“关于about”</li><li>添加“标签tags”</li><li>添加“分类categories”</li><li>添加“百度站点地图”</li></ul><h4 id="2018-01-15"><a href="#2018-01-15" class="headerlink" title="2018-01-15"></a>2018-01-15</h4><ul><li>添加分享插件JiaThis</li><li>添加赞赏插件</li><li>添加微信二维码插件</li><li>添加支付宝领红包插件</li></ul><h4 id="2018-01-14"><a href="#2018-01-14" class="headerlink" title="2018-01-14"></a>2018-01-14</h4><ul><li>更换hexo默认主题landscape-&gt;next</li><li>更换页面关键词显示图标</li></ul><h4 id="2018-01-11"><a href="#2018-01-11" class="headerlink" title="2018-01-11"></a>2018-01-11</h4><ul><li>创建zoumingzhe.github.io主页</li><li>安装node.js与hexo</li><li>上传github</li><li>绑定SSH</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      GitHub主页的维护升级日志。通过GitHub Pages + Hexo，搭建属于自己的博客主页。
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="http://yoursite.com/tags/Next/"/>
+    
+      <category term="GitHub Pages" scheme="http://yoursite.com/tags/GitHub-Pages/"/>
+    
+      <category term="更新" scheme="http://yoursite.com/tags/%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/01/11/hello-world/"/>
+    <id>http://yoursite.com/2018/01/11/hello-world/</id>
+    <published>2018-01-11T14:23:12.000Z</published>
+    <updated>2018-01-16T17:46:21.415Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      Hello World，这是由Hexo自动创建的一篇文章，个人博客生涯由此开启。
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
