@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zoumingzhe.github.io/"/>
-  <updated>2018-01-17T18:06:20.212Z</updated>
+  <updated>2018-01-26T16:19:52.298Z</updated>
   <id>https://zoumingzhe.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>不同开源许可协议间的区别</title>
-    <link href="https://zoumingzhe.github.io/2018/01/16/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
-    <id>https://zoumingzhe.github.io/2018/01/16/开源许可协议的区别/</id>
-    <published>2018-01-15T16:07:40.000Z</published>
-    <updated>2018-01-17T18:06:20.212Z</updated>
+    <link href="https://zoumingzhe.github.io/2018/01/27/%E4%B8%8D%E5%90%8C%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>https://zoumingzhe.github.io/2018/01/27/不同开源许可协议间的区别/</id>
+    <published>2018-01-26T16:16:00.000Z</published>
+    <updated>2018-01-26T16:19:52.298Z</updated>
     
     <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="http://blog.csdn.net/testcs_dn/article/details/38496107" target="_blank" rel="noopener">开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别</a></li></ul>]]></content>
     
@@ -31,14 +31,40 @@
     
     </summary>
     
+      <category term="开源" scheme="https://zoumingzhe.github.io/categories/%E5%BC%80%E6%BA%90/"/>
+    
     
       <category term="开源" scheme="https://zoumingzhe.github.io/tags/%E5%BC%80%E6%BA%90/"/>
     
-      <category term="许可协议" scheme="https://zoumingzhe.github.io/tags/%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE/"/>
+      <category term="许可" scheme="https://zoumingzhe.github.io/tags/%E8%AE%B8%E5%8F%AF/"/>
     
-      <category term="GPL" scheme="https://zoumingzhe.github.io/tags/GPL/"/>
+      <category term="协议" scheme="https://zoumingzhe.github.io/tags/%E5%8D%8F%E8%AE%AE/"/>
     
-      <category term="BSD" scheme="https://zoumingzhe.github.io/tags/BSD/"/>
+  </entry>
+  
+  <entry>
+    <title>GitHub入门</title>
+    <link href="https://zoumingzhe.github.io/2018/01/26/GitHub%E5%85%A5%E9%97%A8/"/>
+    <id>https://zoumingzhe.github.io/2018/01/26/GitHub入门/</id>
+    <published>2018-01-26T15:09:00.000Z</published>
+    <updated>2018-01-26T15:59:02.767Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="GitHub简介"><a href="#GitHub简介" class="headerlink" title="GitHub简介"></a>GitHub简介</h2><p>GitHub使用Git分布式版本控制系统，而Git是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。Git是Linus Torvalds为了帮助管理Linux内核开发而开发的一个开放源码的版本控制软件。<br>GitHub是一个面向开源及私有软件项目的托管平台，付费用户可以建私人仓库，我们一般的免费用户只能使用公共仓库，也就是代码要公开。<br>Github 由Chris Wanstrath, PJ Hyett 与Tom Preston-Werner三位开发者在2008年4月创办。</p><h2 id="GitHub入门"><a href="#GitHub入门" class="headerlink" title="GitHub入门"></a>GitHub入门</h2><h3 id="注册GitHub账户"><a href="#注册GitHub账户" class="headerlink" title="注册GitHub账户"></a>注册GitHub账户</h3><h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><h2 id="git入门"><a href="#git入门" class="headerlink" title="git入门"></a>git入门</h2><h3 id="git安装"><a href="#git安装" class="headerlink" title="git安装"></a>git安装</h3><ul><li><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">下载git</a></li><li><a href="https://git-scm.com/download/mac" target="_blank" rel="noopener">下载 git Mac OSX 版</a></li><li><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">下载 git Windows 版</a></li><li><a href="https://git-scm.com/download/linux" target="_blank" rel="noopener">下载 git Linux 版</a></li></ul><h3 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h3><p>首先在本地创建ssh key：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"your_email@youremail.com"</span></span><br></pre></td></tr></table></figure></p><p>your_email@youremail.com为你在github上注册的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。成功的话会在~/下生成.ssh文件夹，进去，打开id_rsa.pub，复制里面的key。<br>回到github上，进入 Account Settings（账户配置），左边选择SSH Keys，Add SSH Key,title随便填，粘贴在你电脑上生成的key。<br><img src="\images\post\GitHub入门-github-account.jpg" alt="image"><br>为了验证是否成功，在git bash下输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure></p><p>如果是第一次会提示是否continue，输入yes就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。</p><h2 id="检出仓库"><a href="#检出仓库" class="headerlink" title="检出仓库"></a>检出仓库</h2><h2 id="工作流"><a href="#工作流" class="headerlink" title="工作流"></a>工作流</h2><h2 id="推送改动"><a href="#推送改动" class="headerlink" title="推送改动"></a>推送改动</h2><h2 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h2><h2 id="更新与合并"><a href="#更新与合并" class="headerlink" title="更新与合并"></a>更新与合并</h2><h2 id="GitHub-Desktop"><a href="#GitHub-Desktop" class="headerlink" title="GitHub Desktop"></a>GitHub Desktop</h2><h2 id="链接与资源"><a href="#链接与资源" class="headerlink" title="链接与资源"></a>链接与资源</h2><h3 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h3><ul><li><a href="http://www.runoob.com/w3cnote/git-guide.html" target="_blank" rel="noopener">Github 简明教程</a></li></ul><h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ul><li><a href="http://blog.csdn.net/qq1332479771/article/details/56087333" target="_blank" rel="noopener">github上fork了别人的项目后,再同步更新别人的提交</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      GitHub主页的维护升级日志。通过GitHub Pages + Hexo，搭建属于自己的博客主页。
+    
+    </summary>
+    
+      <category term="GitHub" scheme="https://zoumingzhe.github.io/categories/GitHub/"/>
+    
+    
+      <category term="Git" scheme="https://zoumingzhe.github.io/tags/Git/"/>
+    
+      <category term="GitHub" scheme="https://zoumingzhe.github.io/tags/GitHub/"/>
+    
+      <category term="入门" scheme="https://zoumingzhe.github.io/tags/%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
@@ -46,10 +72,10 @@
     <title>升级日志</title>
     <link href="https://zoumingzhe.github.io/2018/01/15/%E5%8D%87%E7%BA%A7%E6%97%A5%E5%BF%97/"/>
     <id>https://zoumingzhe.github.io/2018/01/15/升级日志/</id>
-    <published>2018-01-14T16:32:05.000Z</published>
-    <updated>2018-01-17T20:10:34.479Z</updated>
+    <published>2018-01-14T16:32:00.000Z</published>
+    <updated>2018-01-26T15:30:00.919Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过GitHub Pages + Hexo，搭建属于自己的博客主页，这篇日志用来记录博客主页的技术一步步成长壮大。<br>Hexo是一款基于Node.js的静态博客框架，本站点使用的是next主题，该主题比较简约，更多的主题可以通过<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>获取。</p><h2 id="传送门"><a href="#传送门" class="headerlink" title="传送门"></a>传送门</h2><ul><li><a href="https://zoumingzhe.github.io">邹明哲 个人主页</a></li><li><a href="https://github.com/zoumingzhe" target="_blank" rel="noopener">邹明哲 GitHub主页</a></li><li><a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">仓库hexo</a></li><li><a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="noopener">仓库hexo-admin</a></li><li><a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">仓库hexo-theme-next</a></li><li><a href="https://github.com/zhuzhuyule/HexoEditor" target="_blank" rel="noopener">仓库HexoEditor</a></li><li><a href="https://hexo.io" target="_blank" rel="noopener">官方Hexo</a></li><li><a href="http://www.jiathis.com/" target="_blank" rel="noopener">官方JiaThis</a></li><li><a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">官方fontawesome</a></li></ul><h2 id="建站参考"><a href="#建站参考" class="headerlink" title="建站参考"></a>建站参考</h2><ul><li><a href="https://www.cnblogs.com/visugar/p/6821777.html" target="_blank" rel="noopener">hexo从零开始到搭建完整</a></li><li><a href="http://blog.csdn.net/u010278882/article/details/50749354" target="_blank" rel="noopener">hexo初识</a></li><li><a href="http://qjzhixing.com/2015/08/24/" target="_blank" rel="noopener">使用Hexo搭建博客（一），一点想法</a></li><li><a href="http://qjzhixing.com/2015/08/26/" target="_blank" rel="noopener">使用Hexo搭建博客（二），搭建博客的过程</a></li><li><a href="http://qjzhixing.com/2015/08/27/" target="_blank" rel="noopener">使用Hexo搭建博客（三），博客配置、主题和写作</a></li><li><a href="http://qjzhixing.com/2015/08/28/" target="_blank" rel="noopener">使用Hexo搭建博客（四），博客的部件和插件</a></li><li><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">hexo的next主题个性化教程:打造炫酷网站</a></li><li><a href="https://www.jianshu.com/p/8e28a76cb7e2" target="_blank" rel="noopener">github+hexo博客的主题安装及优化</a></li><li><a href="http://blog.csdn.net/wuseyukui/article/details/68059953" target="_blank" rel="noopener">搭建Hexo博客（Next主题）中踩过的坑</a></li><li><a href="http://yeshaoting.cn/article/hexo/hexo%E4%BD%BF%E7%94%A8%E8%BF%9B%E9%98%B6/" target="_blank" rel="noopener">hexo使用进阶</a></li><li><a href="http://www.cnblogs.com/mrwuzs/p/7954438.html" target="_blank" rel="noopener">hexo+next主题目录解析</a></li><li><a href="https://www.cnblogs.com/syd192/p/6074323.html" target="_blank" rel="noopener">Hexo的Next主题配置</a></li><li><a href="http://blog.csdn.net/qq_23435721/article/details/50938828" target="_blank" rel="noopener">使用GitHub Pages + Hexo 快速搭建个性化博客(四)-博客菜单和侧边栏优化</a></li><li><a href="https://www.jianshu.com/p/9c2d6db2f855" target="_blank" rel="noopener">hexo(3)-生成sitemap站点地图</a></li><li><a href="http://blog.csdn.net/u010053344/article/details/50706790" target="_blank" rel="noopener">Github 搭建 hexo （五）- 站点地图（sitemap.xml）</a></li></ul><h2 id="问题集"><a href="#问题集" class="headerlink" title="问题集"></a>问题集</h2><ul><li><a href="https://segmentfault.com/q/1010000003870970" target="_blank" rel="noopener">使用localhost:4000访问本地blog一直无响应</a></li></ul><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><h4 id="2018-01-18"><a href="#2018-01-18" class="headerlink" title="2018-01-18"></a>2018-01-18</h4><ul><li>验证百度SEO</li><li>验证百度https</li><li>增加baidusitemap</li><li>开放baidu_push</li></ul><h4 id="2018-01-17"><a href="#2018-01-17" class="headerlink" title="2018-01-17"></a>2018-01-17</h4><ul><li>修复本地访问失败（4000端口占用）</li><li>增加本地可视化编辑hexo-admin</li><li>增加搜索功能</li><li>增加社交展示</li><li>添加“关于about”</li><li>添加“标签tags”</li><li>添加“分类categories”</li></ul><h4 id="2018-01-15"><a href="#2018-01-15" class="headerlink" title="2018-01-15"></a>2018-01-15</h4><ul><li>添加分享插件JiaThis</li><li>添加赞赏插件</li><li>添加微信二维码插件</li><li>添加支付宝领红包插件</li></ul><h4 id="2018-01-14"><a href="#2018-01-14" class="headerlink" title="2018-01-14"></a>2018-01-14</h4><ul><li>更换hexo默认主题landscape-&gt;next</li><li>更换页面关键词显示图标</li></ul><h4 id="2018-01-11"><a href="#2018-01-11" class="headerlink" title="2018-01-11"></a>2018-01-11</h4><ul><li>创建zoumingzhe.github.io主页</li><li>安装node.js与hexo</li><li>上传github</li><li>绑定SSH</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过GitHub Pages + Hexo，搭建属于自己的博客主页，这篇日志用来记录博客主页的技术一步步成长壮大。<br>Hexo是一款基于Node.js的静态博客框架，本站点使用的是next主题，该主题比较简约，更多的主题可以通过<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>获取。</p><h2 id="传送门"><a href="#传送门" class="headerlink" title="传送门"></a>传送门</h2><ul><li><a href="https://zoumingzhe.github.io">邹明哲 个人主页</a></li><li><a href="https://github.com/zoumingzhe" target="_blank" rel="noopener">邹明哲 GitHub主页</a></li><li><a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">仓库hexo</a></li><li><a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="noopener">仓库hexo-admin</a></li><li><a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">仓库hexo-theme-next</a></li><li><a href="https://github.com/zhuzhuyule/HexoEditor" target="_blank" rel="noopener">仓库HexoEditor</a></li><li><a href="https://hexo.io" target="_blank" rel="noopener">官方Hexo</a></li><li><a href="http://www.jiathis.com/" target="_blank" rel="noopener">官方JiaThis</a></li><li><a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">官方fontawesome</a></li></ul><h2 id="建站参考"><a href="#建站参考" class="headerlink" title="建站参考"></a>建站参考</h2><ul><li><a href="https://www.cnblogs.com/visugar/p/6821777.html" target="_blank" rel="noopener">hexo从零开始到搭建完整</a></li><li><a href="http://blog.csdn.net/u010278882/article/details/50749354" target="_blank" rel="noopener">hexo初识</a></li><li><a href="http://qjzhixing.com/2015/08/24/" target="_blank" rel="noopener">使用Hexo搭建博客（一），一点想法</a></li><li><a href="http://qjzhixing.com/2015/08/26/" target="_blank" rel="noopener">使用Hexo搭建博客（二），搭建博客的过程</a></li><li><a href="http://qjzhixing.com/2015/08/27/" target="_blank" rel="noopener">使用Hexo搭建博客（三），博客配置、主题和写作</a></li><li><a href="http://qjzhixing.com/2015/08/28/" target="_blank" rel="noopener">使用Hexo搭建博客（四），博客的部件和插件</a></li><li><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">hexo的next主题个性化教程:打造炫酷网站</a></li><li><a href="https://www.jianshu.com/p/8e28a76cb7e2" target="_blank" rel="noopener">github+hexo博客的主题安装及优化</a></li><li><a href="http://blog.csdn.net/wuseyukui/article/details/68059953" target="_blank" rel="noopener">搭建Hexo博客（Next主题）中踩过的坑</a></li><li><a href="http://yeshaoting.cn/article/hexo/hexo%E4%BD%BF%E7%94%A8%E8%BF%9B%E9%98%B6/" target="_blank" rel="noopener">hexo使用进阶</a></li><li><a href="http://www.cnblogs.com/mrwuzs/p/7954438.html" target="_blank" rel="noopener">hexo+next主题目录解析</a></li><li><a href="https://www.cnblogs.com/syd192/p/6074323.html" target="_blank" rel="noopener">Hexo的Next主题配置</a></li><li><a href="http://blog.csdn.net/qq_23435721/article/details/50938828" target="_blank" rel="noopener">使用GitHub Pages + Hexo 快速搭建个性化博客(四)-博客菜单和侧边栏优化</a></li><li><a href="https://www.jianshu.com/p/9c2d6db2f855" target="_blank" rel="noopener">hexo(3)-生成sitemap站点地图</a></li><li><a href="http://blog.csdn.net/u010053344/article/details/50706790" target="_blank" rel="noopener">Github 搭建 hexo （五）- 站点地图（sitemap.xml）</a></li><li><a href="http://blog.csdn.net/jameshadoop/article/details/53323083" target="_blank" rel="noopener">Hexo 百度提交链接</a></li></ul><h2 id="问题集"><a href="#问题集" class="headerlink" title="问题集"></a>问题集</h2><ul><li><a href="https://segmentfault.com/q/1010000003870970" target="_blank" rel="noopener">使用localhost:4000访问本地blog一直无响应</a></li></ul><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><h4 id="2018-01-18"><a href="#2018-01-18" class="headerlink" title="2018-01-18"></a>2018-01-18</h4><ul><li>验证百度SEO</li><li>验证百度https</li><li>增加baidusitemap</li><li>开放baidu_push</li></ul><h4 id="2018-01-17"><a href="#2018-01-17" class="headerlink" title="2018-01-17"></a>2018-01-17</h4><ul><li>修复本地访问失败（4000端口占用）</li><li>增加本地可视化编辑hexo-admin</li><li>增加搜索功能</li><li>增加社交展示</li><li>添加“关于about”</li><li>添加“标签tags”</li><li>添加“分类categories”</li></ul><h4 id="2018-01-15"><a href="#2018-01-15" class="headerlink" title="2018-01-15"></a>2018-01-15</h4><ul><li>添加分享插件JiaThis</li><li>添加赞赏插件</li><li>添加微信二维码插件</li><li>添加支付宝领红包插件</li></ul><h4 id="2018-01-14"><a href="#2018-01-14" class="headerlink" title="2018-01-14"></a>2018-01-14</h4><ul><li>更换hexo默认主题landscape-&gt;next</li><li>更换页面关键词显示图标</li></ul><h4 id="2018-01-11"><a href="#2018-01-11" class="headerlink" title="2018-01-11"></a>2018-01-11</h4><ul><li>创建zoumingzhe.github.io主页</li><li>安装node.js与hexo</li><li>上传github</li><li>绑定SSH</li></ul>]]></content>
     
     <summary type="html">
     
