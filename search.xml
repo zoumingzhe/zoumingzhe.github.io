@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Python使用问题集锦]]></title>
-    <url>%2F2018%2F01%2F27%2FPython%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E9%9B%86%E9%94%A6%2F</url>
-    <content type="text"><![CDATA[Python安装问题使用pip安装失败[问题描述]在Windows 7的CMD命令行中使用pip install命令安装了Python库时安装失败，错误提示如下： Running setup.py install for markupsafe … error [解决方案]参考此处，用Git Base运行pip install安装。 链接与资源推荐阅读 Github 简明教程 参考文章 Windows 7下用 pip 安装 markupsafe 时遇到的错误]]></content>
+    <title><![CDATA[Python安装]]></title>
+    <url>%2F2018%2F02%2F20%2FPython%E5%AE%89%E8%A3%85%2F</url>
+    <content type="text"><![CDATA[使用pip安装失败[问题描述]在Windows 7的CMD命令行中使用pip install命令安装了Python库时安装失败，错误提示如下： Running setup.py install for markupsafe … error [解决方案]参考此处，用Git Base运行pip install安装。 Python中没有内置pip[问题描述]使用Python3.3 pip install安装模块提示“pip”不是内部或外部命令，也不是可运行的程序 [解决方案]pip在Python3.4中才默认安装，Python3.3及更早版本中无内置pip模块，需要手动下载安装并添加路径到环境变量中，具体参考此处。 链接与资源推荐阅读 Github 简明教程 参考文章 Windows 7下用 pip 安装 markupsafe 时遇到的错误 windows下面安装Python和pip终极教程]]></content>
       <categories>
         <category>Python</category>
       </categories>
@@ -11,6 +11,20 @@
         <tag>Python</tag>
         <tag>使用</tag>
         <tag>问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Python文件创建与相对路径]]></title>
+    <url>%2F2018%2F02%2F20%2FPython%E6%96%87%E4%BB%B6%E5%88%9B%E5%BB%BA%E4%B8%8E%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%2F</url>
+    <content type="text"><![CDATA[使用Python3.3创建excel文件失败[问题描述]使用Python3.3创建excel文件失败，报错FileNotFoundError，该脚本在Python3.6下可以正常运行。 [解决方案]初步判断创建文件的路径下文件夹不存在，添加创建文件夹代码后脚本正常运行。Python3.6下创建文件时若文件夹不存在会自动创建而Python3.3不会，导致Python3.3创建文件失败，需要添加文件夹创建命令。 Python创建文件时文件路径的设置[问题描述]Python创建文件时文件路径的如何设置？ [解决方案]文件路径有相对路径和绝对路径，具体参考此处。 参考文章 python学习：绝对路径和相对路径]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>文件创建</tag>
+        <tag>相对路径</tag>
+        <tag>绝对路径</tag>
       </tags>
   </entry>
   <entry>

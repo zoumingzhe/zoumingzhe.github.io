@@ -4,6 +4,56 @@
 
     
   <url>
+    <loc>https://zoumingzhe.github.io/2018/02/20/Python%E6%96%87%E4%BB%B6%E5%88%9B%E5%BB%BA%E4%B8%8E%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/</loc>
+    <lastmod>2018-02-19T17:52:38.458Z</lastmod>
+    <data>
+        <display>
+        <title>Python文件创建与相对路径</title>
+        <pubTime>2018-02-19T17:13:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>文件创建</tag>
+         
+        <tag>相对路径</tag>
+         
+        <tag>绝对路径</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://zoumingzhe.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zoumingzhe.github.io/2018/02/20/Python%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2018-02-19T17:41:33.949Z</lastmod>
+    <data>
+        <display>
+        <title>Python安装</title>
+        <pubTime>2018-02-19T17:30:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>使用</tag>
+         
+        <tag>问题</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://zoumingzhe.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://zoumingzhe.github.io/2018/01/26/GitHub%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2018-01-27T16:26:13.988Z</lastmod>
     <data>
@@ -21,30 +71,6 @@
            
              
               <breadCrumb title="GitHub" url="https://zoumingzhe.github.io/categories/GitHub/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://zoumingzhe.github.io/2018/01/27/Python%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E9%9B%86%E9%94%A6/</loc>
-    <lastmod>2018-01-27T16:22:43.675Z</lastmod>
-    <data>
-        <display>
-        <title>Python使用问题集锦</title>
-        <pubTime>2018-01-27T15:54:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-        <tag>使用</tag>
-         
-        <tag>问题</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="https://zoumingzhe.github.io/categories/Python/"/>
           
         </display>
     </data>

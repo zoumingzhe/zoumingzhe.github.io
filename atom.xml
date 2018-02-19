@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zoumingzhe.github.io/"/>
-  <updated>2018-01-27T16:22:43.675Z</updated>
+  <updated>2018-02-19T17:41:33.949Z</updated>
   <id>https://zoumingzhe.github.io/</id>
   
   <author>
@@ -17,17 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Python使用问题集锦</title>
-    <link href="https://zoumingzhe.github.io/2018/01/27/Python%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E9%9B%86%E9%94%A6/"/>
-    <id>https://zoumingzhe.github.io/2018/01/27/Python使用问题集锦/</id>
-    <published>2018-01-27T15:54:00.000Z</published>
-    <updated>2018-01-27T16:22:43.675Z</updated>
+    <title>Python安装</title>
+    <link href="https://zoumingzhe.github.io/2018/02/20/Python%E5%AE%89%E8%A3%85/"/>
+    <id>https://zoumingzhe.github.io/2018/02/20/Python安装/</id>
+    <published>2018-02-19T17:30:00.000Z</published>
+    <updated>2018-02-19T17:41:33.949Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Python安装问题"><a href="#Python安装问题" class="headerlink" title="Python安装问题"></a>Python安装问题</h2><h3 id="使用pip安装失败"><a href="#使用pip安装失败" class="headerlink" title="使用pip安装失败"></a>使用pip安装失败</h3><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="[问题描述]"></a>[问题描述]</h4><p>在Windows 7的CMD命令行中使用pip install命令安装了Python库时安装失败，错误提示如下：<br> Running setup.py install for markupsafe … error </p><h4 id="解决方案"><a href="#解决方案" class="headerlink" title="[解决方案]"></a>[解决方案]</h4><p><a href="#reference001">参考此处</a>，用Git Base运行pip install安装。</p><h2 id="链接与资源"><a href="#链接与资源" class="headerlink" title="链接与资源"></a>链接与资源</h2><h3 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h3><ul><li><a href="http://www.runoob.com/w3cnote/git-guide.html" target="_blank" rel="noopener">Github 简明教程</a></li></ul><h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ul><li><span id="reference001"><a href="http://blog.csdn.net/candcplusplus/article/details/7279359" target="_blank" rel="noopener">Windows 7下用 pip 安装 markupsafe 时遇到的错误</a></span></li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="使用pip安装失败"><a href="#使用pip安装失败" class="headerlink" title="使用pip安装失败"></a>使用pip安装失败</h3><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="[问题描述]"></a>[问题描述]</h4><p>在Windows 7的CMD命令行中使用pip install命令安装了Python库时安装失败，错误提示如下：<br> Running setup.py install for markupsafe … error </p><h4 id="解决方案"><a href="#解决方案" class="headerlink" title="[解决方案]"></a>[解决方案]</h4><p><a href="#reference001">参考此处</a>，用Git Base运行pip install安装。</p><h3 id="Python中没有内置pip"><a href="#Python中没有内置pip" class="headerlink" title="Python中没有内置pip"></a>Python中没有内置pip</h3><h4 id="问题描述-1"><a href="#问题描述-1" class="headerlink" title="[问题描述]"></a>[问题描述]</h4><p>使用Python3.3 pip install安装模块提示“pip”不是内部或外部命令，也不是可运行的程序</p><h4 id="解决方案-1"><a href="#解决方案-1" class="headerlink" title="[解决方案]"></a>[解决方案]</h4><p>pip在Python3.4中才默认安装，Python3.3及更早版本中无内置pip模块，需要<a href="https://pypi.python.org/pypi/pip" target="_blank" rel="noopener">手动下载安装</a>并添加路径到环境变量中，<a href="#reference002">具体参考此处</a>。</p><h3 id="链接与资源"><a href="#链接与资源" class="headerlink" title="链接与资源"></a>链接与资源</h3><h4 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h4><ul><li><a href="http://www.runoob.com/w3cnote/git-guide.html" target="_blank" rel="noopener">Github 简明教程</a></li></ul><h4 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h4><ul><li><span id="reference001"><a href="http://blog.csdn.net/candcplusplus/article/details/7279359" target="_blank" rel="noopener">Windows 7下用 pip 安装 markupsafe 时遇到的错误</a></span></li><li><span id="reference002"><a href="http://blog.csdn.net/lengqi0101/article/details/61921399" target="_blank" rel="noopener">windows下面安装Python和pip终极教程</a></span></li></ul>]]></content>
     
     <summary type="html">
     
-      Python使用问题集锦，记录Python使用过程中的问题和解决方案，方便日后查阅。
+      Python安装问题汇总。
     
     </summary>
     
@@ -39,6 +39,34 @@
       <category term="使用" scheme="https://zoumingzhe.github.io/tags/%E4%BD%BF%E7%94%A8/"/>
     
       <category term="问题" scheme="https://zoumingzhe.github.io/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python文件创建与相对路径</title>
+    <link href="https://zoumingzhe.github.io/2018/02/20/Python%E6%96%87%E4%BB%B6%E5%88%9B%E5%BB%BA%E4%B8%8E%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/"/>
+    <id>https://zoumingzhe.github.io/2018/02/20/Python文件创建与相对路径/</id>
+    <published>2018-02-19T17:13:00.000Z</published>
+    <updated>2018-02-19T17:52:38.458Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="使用Python3-3创建excel文件失败"><a href="#使用Python3-3创建excel文件失败" class="headerlink" title="使用Python3.3创建excel文件失败"></a>使用Python3.3创建excel文件失败</h3><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="[问题描述]"></a>[问题描述]</h4><p>使用Python3.3创建excel文件失败，报错FileNotFoundError，该脚本在Python3.6下可以正常运行。</p><h4 id="解决方案"><a href="#解决方案" class="headerlink" title="[解决方案]"></a>[解决方案]</h4><p>初步判断创建文件的路径下文件夹不存在，添加创建文件夹代码后脚本正常运行。<br>Python3.6下创建文件时若文件夹不存在会自动创建而Python3.3不会，导致Python3.3创建文件失败，需要添加文件夹创建命令。</p><h3 id="Python创建文件时文件路径的设置"><a href="#Python创建文件时文件路径的设置" class="headerlink" title="Python创建文件时文件路径的设置"></a>Python创建文件时文件路径的设置</h3><h4 id="问题描述-1"><a href="#问题描述-1" class="headerlink" title="[问题描述]"></a>[问题描述]</h4><p>Python创建文件时文件路径的如何设置？</p><h4 id="解决方案-1"><a href="#解决方案-1" class="headerlink" title="[解决方案]"></a>[解决方案]</h4><p>文件路径有相对路径和绝对路径，<a href="#reference001">具体参考此处</a>。</p><h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ul><li><span id="reference001"><a href="http://blog.csdn.net/databatman/article/details/49453953" target="_blank" rel="noopener">python学习：绝对路径和相对路径</a></span></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      Python文件创建，文件访问的相对路径和绝对路径。
+    
+    </summary>
+    
+      <category term="Python" scheme="https://zoumingzhe.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="https://zoumingzhe.github.io/tags/Python/"/>
+    
+      <category term="文件创建" scheme="https://zoumingzhe.github.io/tags/%E6%96%87%E4%BB%B6%E5%88%9B%E5%BB%BA/"/>
+    
+      <category term="相对路径" scheme="https://zoumingzhe.github.io/tags/%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/"/>
+    
+      <category term="绝对路径" scheme="https://zoumingzhe.github.io/tags/%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84/"/>
     
   </entry>
   
